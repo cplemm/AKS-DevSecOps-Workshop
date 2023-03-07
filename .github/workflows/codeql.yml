@@ -1,0 +1,3 @@
+    - name: Build Java
+      run: |
+        mvn clean package -f tools/deploy/module2/pom.xml
